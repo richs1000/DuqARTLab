@@ -2,32 +2,32 @@ nav {
     text-align: right;
 }
 
-/*
-nav ul {
-    list-style: none;
-}
-*/
-
 nav li {
     display: inline-block;
 }
 
-main section h1 {
+h1 {
     width: 100%;
     text-align: center;
 }
 
-.cards {
-    display: flex;
+h2 {
+    width: 100%;
+    color: white;
+    background-color: blue;
 }
 
-.course, .makerMedium {
+.cards {
+    display: flex;
+    min-height: 300px;
+}
+
+.card {
     display: inline-flex;
-    min-width: 20%;
-    min-height: 20%;
-    max-width: 30%;
-    max-height: 30%;
+    width: 20%;
     justify-items: space-between;
-    background-color: gray;
+    background-color: grey;
     margin: 2%;
+    border: solid blue 1px;
+    padding: 10px;
 }
